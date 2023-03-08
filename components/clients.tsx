@@ -12,6 +12,7 @@ function SampleNextArrow(props: any) {
                 display: "block",
                 background: "#333",
                 borderRadius: 30,
+                right: "10px",
             }}
             onClick={onClick}
         />
@@ -28,6 +29,7 @@ function SamplePrevArrow(props: any) {
                 display: "block",
                 background: "#333",
                 borderRadius: 30,
+                left: "10px",
             }}
             onClick={onClick}
         />
@@ -43,6 +45,20 @@ export default function Clients() {
         slidesToScroll: 1,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                },
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 2,
+                },
+            },
+        ],
     }
     const ItemSlide = (props: any) => (
         <div className="text-center">

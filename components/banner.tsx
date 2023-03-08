@@ -6,7 +6,7 @@ export default function Banner() {
     return (
         <div className="bg-gradient-to-r flex items-center justify-center h-screen from-[#ECF2F6] to-[#fff]">
             <div className="container">
-                <div className="content flex items-center">
+                <div className="content flex items-center sm:flex-row flex-col">
                     <div className="item flex-1">
                         <h1 className="text-[50px]">
                             ATS <span className="text-red">Internet</span>

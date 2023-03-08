@@ -12,7 +12,7 @@ export default function Home() {
                     <h2 className="text-center text-3xl">
                         Cara <span className="text-red">Kerja</span>
                     </h2>
-                    <div className="flex justify-between space-x-7">
+                    <div className="flex justify-between lg:space-x-7 sm:flex-row flex-col">
                         <ItemHowTo
                             image=<FcAssistant />
                             title="KONSULTASI KEBUTUHAN INTERNET AKSES"

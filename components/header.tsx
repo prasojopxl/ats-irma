@@ -1,4 +1,6 @@
 import Image from "next/image"
+import { HiMenuAlt3 } from "react-icons/hi"
+
 import Link from "next/link"
 import React from "react"
 
@@ -15,14 +17,14 @@ export default function Header() {
                             alt="logo"
                         />
                     </div>
-                    <div>
+                    <div className="lg:block hidden">
                         <h2 className="text-[20px] text-red">
                             ATS COMMUNICATION
                         </h2>
                         <h6 className="opacity-[0.5]">Ade Irma Suryani</h6>
                     </div>
                 </Link>
-                <ul className="flex justify-between font-bold space-x-7 text-lg">
+                <ul className="lg:flex justify-between font-bold space-x-7 text-lg hidden ">
                     <li>
                         <Link href="/" className="hover:text-red">
                             Home
@@ -44,6 +46,9 @@ export default function Header() {
                         </Link>
                     </li>
                 </ul>
+                <div className="lg:hidden block text-3xl">
+                    <HiMenuAlt3 />
+                </div>
             </div>
         </div>
     )

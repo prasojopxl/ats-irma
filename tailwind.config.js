@@ -16,6 +16,7 @@ module.exports = {
                 xl: 1200,
                 "2xl": "1200px",
             },
+            padding: "10px",
         },
         extend: {
             fontFamily: {
