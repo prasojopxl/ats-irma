@@ -8,7 +8,7 @@ export default function Banner() {
             <div className="container">
                 <div className="content flex items-center">
                     <div className="item flex-1">
-                        <h1 className="text-[30px]">
+                        <h1 className="text-[50px]">
                             ATS <span className="text-red">Internet</span>
                         </h1>
                         <h3>
@@ -16,7 +16,11 @@ export default function Banner() {
                             Depok, Tangerang, Bekasi, Cikarang, Karawang,
                             Purwakarta
                         </h3>
-                        <Link href="#" className="btn mt-5">
+                        <Link
+                            href="https://wa.me/628971446692"
+                            className="btn mt-5"
+                            target="_blank"
+                        >
                             Pasang Sekarang
                         </Link>
                     </div>
