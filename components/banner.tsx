@@ -13,7 +13,7 @@ export default function Banner() {
                         </h1>
                         <h3>
                             Internet Service Provider untuk wilayah Jakarta,
-                            Depok, Tangerang, Bekasi, Cikarang, Karawang,
+                            Depok, Bogor, Tangerang, Bekasi, Cikarang, Karawang,
                             Purwakarta
                         </h3>
                         <Link

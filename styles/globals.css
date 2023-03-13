@@ -54,6 +54,15 @@
     border-radius: 10px;
 }
 
+.bolder {
+    font-weight: bold;
+    @apply text-red;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
 @media (prefers-color-scheme: dark) {
     :root {
         --foreground-rgb: 255, 255, 255;

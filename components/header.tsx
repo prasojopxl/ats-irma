@@ -31,17 +31,17 @@ export default function Header() {
                         </Link>
                     </li>
                     <li>
-                        <Link href="/" className="hover:text-red">
-                            Profile
+                        <Link href="/tentang-kami" className="hover:text-red">
+                            Tentang Kami
                         </Link>
                     </li>
                     <li>
-                        <Link href="/" className="hover:text-red">
+                        <Link href="/produk" className="hover:text-red">
                             Produk
                         </Link>
                     </li>{" "}
                     <li>
-                        <Link href="/" className="hover:text-red">
+                        <Link href="/hubungi-kami" className="hover:text-red">
                             Hubungi Kami
                         </Link>
                     </li>
