@@ -66,12 +66,12 @@ export default function Header() {
             {menu ? (
                 <>
                     <div
-                        className="bg-slate-900 opacity-80 fixed w-full h-full"
+                        className="bg-slate-900 opacity-80 fixed w-full h-full backdrop-blur z-[5]"
                         onClick={changeMenu}
                     ></div>
-                    <div className="fixed top-[50%] translate-y-[-50%] left-0 right-0">
+                    <div className="fixed top-[50%] translate-y-[-50%] left-0 right-0 z-10">
                         <ul
-                            className={`block text-center bg-white shadow-lg mx-4 mt-2 py-[20px]`}
+                            className={`block  text-center bg-white shadow-lg mx-4 mt-2 py-[20px]`}
                         >
                             <li>
                                 <Link href="/" className="p-2 block">
